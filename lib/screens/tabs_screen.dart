@@ -36,6 +36,7 @@ class _TabsScreenState extends State<TabsScreen> {
   void _selectPage(int index) {
     setState(() {
       _selectedPageIndex = index;
+      print("Current Index: ${_selectedPageIndex}");
     });
   }
 
